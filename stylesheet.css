@@ -155,12 +155,12 @@ button:hover{
 .row{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-
-     /* background-color:whitesmoke; */
-    /* border: 1px solid black; */
-
+     padding: 20px;
+    /* background-color:whitesmoke; */
+    border: 1px solid black;
+    
 }
 
 
@@ -171,35 +171,18 @@ h3>span{
     color: rgba(143, 108, 11, 0.911);  
 }
 .col>h3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    text-transform: capitalize;
+    min-width: 400px;
 }
 .col>a>button{
     /* text-align: center; */
     font-size: 20px;
-    margin:20px 0 0 200px;
+    /* margin:20px 0 0 200px; */
    background-color: rgba(255, 0, 0, 0.726);
    box-shadow: 6px 2px 4px gray;
    border: 1px solid  blueviolet;
   
    
-}
-.col{
-   display: flex;
-   flex-wrap: wrap;
-   text-align: center;
-   justify-content: center;
-   width: 100%;
-   min-height: 400px;
-   max-width: 400px;
-
-}
-.col>h1{
-    /* color: lightgreen; */
-    text-align: center;
-    padding: 0 0 10px 0;
 }
 
 .col>a>button:hover{
