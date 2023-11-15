@@ -1,8 +1,8 @@
 # portfolio
 This is my personal portfolio site, here you can see my education, skills, projects, etc..
 
-## Hosted link
-https://saravanaportfolio.netlify.app/
+
+
 
 # Getting Started with Create React App
 
