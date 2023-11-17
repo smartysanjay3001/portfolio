@@ -68,7 +68,7 @@ function About() {
 
         <div className="box">
           <h3> 6 </h3>
-          <p> Months Of Internship </p>
+          <p> Months Of Trainee </p>
         </div>
 
      
