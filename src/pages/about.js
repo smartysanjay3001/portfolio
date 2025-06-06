@@ -13,8 +13,10 @@ import bootstrapIcon from "../assets/bootstrap.png";
 import angularIcon from "../assets/angularjs.png";
 import phpIcon from "../assets/php.png";
 import python from "../assets/python.png";
+import mysql from "../assets/mysql.png";
+import jqueryIcon from "../assets/jquery.png";
 import larvelIcon from "../assets/larvel.png";
-// import resume from "../assets/resume.pdf"; 
+import resume from "../assets/resume.pdf"; 
 
 function About() {
 
@@ -26,8 +28,10 @@ function About() {
   const techStack = [
     { icon: phpIcon, label: "PHP", alt: "phpIcon" },
     { icon: python, label: "Python", alt: "pyhtonIcon" },
+    { icon: mysql, label: "MySQL", alt: "MySQLIcon" },
     { icon: javascriptIcon, label: "JavaScript", alt: "javascriptIcon" },
     { icon: reactIcon, label: "React", alt: "reactIcon" },
+    { icon: jqueryIcon, label: "Jquery", alt: "jqueryIcon" },
     { icon: htmlIcon, label: "HTML", alt: "htmlIcon" },
     { icon: cssIcon, label: "CSS", alt: "cssIcon" },
     { icon: bootstrapIcon, label: "Bootstrap", alt: "bootstrapIcon" },
@@ -42,14 +46,14 @@ function About() {
 
   ];
   const myexperinece = [
-    {com_name:'NETAXIS IT SOLUTIONS (P) LTD', icon: <FaLaptopCode/>, years: "Jun 2023 - Nov 2023", field: "Fullstack Developer (Trainee)", para: "I designed some front-end templates. And I worked with CSS and Bootstrap for designing UI. I have done some API integration in small projects" },
-    {com_name:"Nscript Web Studios ", icon: <FaLaptopCode/>, years: "Jan 2024 - Present", field: "Web Developer", para: " As a Software Developer at nScript Technologies, I contributed to the development of a food delivery and trading platform aimed at enhancing operational efficiency, user experience, and backend performance. I worked across both front-end and back-end components, using PHP, Python, HTML, CSS, JavaScript, and MySQL to build and maintain dynamic, database-driven web applications." },
+    {com_name:'NETAXIS IT SOLUTIONS (P) LTD', icon: <FaLaptopCode/>, years: "Jun 2023 - Nov 2023", field: "Fullstack Developer (Trainee)", para: "Developed responsive front-end templates with CSS and Bootstrap, focusing on user interface design. Also contributed to API integration in various small projects." },
+    {com_name:"Nscript Web Studios ", icon: <FaLaptopCode/>, years: "Jan 2024 - Present", field: "Web Developer", para: " As a Software Developer at nScript Technologies, I contributed to the development of a food delivery and trading platform aimed at enhancing operational efficiency, user experience, and backend performance. I worked across both front-end and back-end components, using PHP, Python, JavaScript,MySQL,HTML, and CSS to build and maintain dynamic, database-driven web applications." },
     
 
   ];
   const myeducation = [
-    { icon: <FaGraduationCap/>, years: "Mar 2016 - Apr 2018", field: "Higher Secondary 12TH", para: "I scored 82% on the higher secondary board exam." },
-    { icon: <FaGraduationCap/>, years: "Mar 2018 - Apr 2022", field: "B.E Mechanical Engineering", para: "I completed my Mechanical Engineering degree with 8.10 CGPA in Panimalar Enginnering College, Chennai, Tamil Nadu, India." },
+    { icon: <FaGraduationCap/>, years: "Mar 2016 - Apr 2018", field: "Higher Secondary 12TH", para: "Achieved 82% in the Higher Secondary Board Examination under the Tamil Nadu State Board, India." },
+    { icon: <FaGraduationCap/>, years: "Mar 2018 - Apr 2022", field: "B.E Mechanical Engineering", para: "Graduated with a Bachelor's degree in Mechanical Engineering, achieving a CGPA of 8.10 from Panimalar Engineering College, Chennai, Tamil Nadu, India" },
 
 
   ];
@@ -82,7 +86,7 @@ function About() {
                 <h3> <span> Language : </span> Tamil, English </h3>
               </div>
             </div>
-            {/* <div className="aboutMeBtn">
+            <div className="aboutMeBtn">
           <a href={resume} download="sanjaykumarResume" target='_blank'  className="btnAbout" >
             {" "}
             Download CV{" "}
@@ -91,7 +95,7 @@ function About() {
               <FaDownload className="downloadBtnIcon" />{" "}
             </span>{" "}
           </a>
-        </div> */}
+        </div>
           </div>
           <div className="count-container">
 
