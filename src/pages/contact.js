@@ -44,25 +44,35 @@ function Contact() {
     subject: e.target.subject.value,
     message: e.target.message.value,
   };
-    // Sending Email using emailjs library ........
     emailjs.sendForm('service_iy0evyx', 'template_x7x6unr', form.current, 'tMVo9tWD_mYE_4L6A')
-      .then((result) => {
-        console.log(result.text);
-        
+  .then((result) => {
+    console.log(result.text);
 
-       return  emailjs.sendForm('service_iy0evyx', 'template_z0gsi9b', formData, 'tMVo9tWD_mYE_4L6A')
-        .then(() => {
-          console.log('Auto-reply sent');
-        })
-      }, (error) => {
-        console.log(error.text);
-        toast.error(<p className='toastMessageStyle'> {error.text} </p>);
+    // Send auto-reply using `send` instead of `sendForm`
+    emailjs.send('service_iy0evyx', 'template_z0gsi9b', formData, 'tMVo9tWD_mYE_4L6A')
+      .then(() => {
+        console.log('Auto-reply sent');
+      })
+      .catch((error) => {
+        console.error('Auto-reply error:', error.text);
       });
 
-    toast.success(<p className='toastMessageStyle'> Thank You 🚀😊🤝 , i will contact
-      to you ASAP ✌️👍  </p>);
+    toast.success(
+      <p className='toastMessageStyle'>
+        Thank You 🚀😊🤝 , I will contact you ASAP ✌️👍
+      </p>
+    );
+  })
+  .catch((error) => {
+    console.log(error.text);
+    toast.error(
+      <p className='toastMessageStyle'>
+        {error.text}
+      </p>
+    );
+  });
 
-    e.target.reset();
+e.target.reset();
   };
   const contactDetails = [
     {

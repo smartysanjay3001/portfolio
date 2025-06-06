@@ -24,13 +24,13 @@ function About() {
 
 
   const techStack = [
-    { icon: javascriptIcon, label: "JavaScript", alt: "javascriptIcon" },
-    { icon: python, label: "Python", alt: "pyhtonIcon" },
     { icon: phpIcon, label: "PHP", alt: "phpIcon" },
+    { icon: python, label: "Python", alt: "pyhtonIcon" },
+    { icon: javascriptIcon, label: "JavaScript", alt: "javascriptIcon" },
+    { icon: reactIcon, label: "React", alt: "reactIcon" },
     { icon: htmlIcon, label: "HTML", alt: "htmlIcon" },
     { icon: cssIcon, label: "CSS", alt: "cssIcon" },
     { icon: bootstrapIcon, label: "Bootstrap", alt: "bootstrapIcon" },
-    { icon: reactIcon, label: "React", alt: "reactIcon" },
     { icon: sassIcon, label: "Sass", alt: "sassIcon" },
     // { icon: angularIcon, label: "AngularJS", alt: "angularIcon" },
     // { icon: larvelIcon, label: "Laravel", alt: "laravelIcon" },
