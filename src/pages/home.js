@@ -23,7 +23,7 @@ function Home() {
       
       <div className='imgContent'>
       <img src={profilePicture} alt="profilePicture"/>
-          <h2> Sanjaykumar<br/><span> Fullstack Developer </span> </h2>
+          <h2> Sanjaykumar<br/><span> Web Developer </span> </h2>
           <Link to="/contact"> Contact me </Link>
       </div>
     </div>
@@ -33,7 +33,7 @@ function Home() {
     <div className="content">
       <h3> Hi, I Am Sanjaykumar </h3>
       <span> <Typewriter
-            words={['I \'m a Fullstack developer' ]}
+            words={['I \'m a Web developer' ]}
             loop={0}
             cursor
             // cursorStyle='_'

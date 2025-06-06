@@ -32,12 +32,7 @@ import workThree from "../assets/img-3.jpg";
 import workFour from "../assets/img-4.jpg";
 import workFive from "../assets/img-5.jpg";
 import workSix from "../assets/img-6.jpg";
-import blogOne from "../assets/blog1.jpg";
-import blogTwo from "../assets/blog2.jpg";
-import blogThree from "../assets/blog3.jpg";
-import blogFour from "../assets/blog4.jpg";
-import blogFive from "../assets/blog5.jpg";
-import blogSix from "../assets/blog6.jpg";
+
 import "./content.css";
 
 function Content() {

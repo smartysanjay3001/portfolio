@@ -28,21 +28,22 @@ function Header() {
           </i>{" "}
           <span> About </span>{" "}
         </Link>
-        <Link to="/portfolio" className="navBarLink">
+        {/* <Link to="/portfolio" className="navBarLink">
           {" "}
           <i>
             {" "}
             <FaBriefcase />{" "}
           </i>{" "}
           <span> Portfolio </span>{" "}
-        </Link>
+        </Link> */}
         <Link to="/blog" className="navBarLink">
           {" "}
           <i>
             {" "}
-            <FaBlog />{" "}
+            {/* <FaBlog />{" "} */}
+            <FaBriefcase />{" "}
           </i>{" "}
-          <span> Blogs </span>{" "}
+          <span> Portfolio </span>{" "}
         </Link>
         <Link to="/contact" className="navBarLink">
           {" "}
