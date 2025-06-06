@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Content from './pages/content';
 import {
-  BrowserRouter,
+  HashRouter ,
   Routes,
   Route,
 } from "react-router-dom";
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       {/* <Content/> */}
-    <BrowserRouter>
+    <HashRouter >
     <Header/>
     <Routes>
       <Route path="/" element={<Home />}/>
@@ -26,7 +26,7 @@ function App() {
       <Route path="/blog" element={<Blogs />}/>
       <Route path="/contact" element={<Contact />}/>
     </Routes>
-  </BrowserRouter>
+  </HashRouter >
     </div>
   );
 }
