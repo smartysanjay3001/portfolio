@@ -26,8 +26,8 @@ function About() {
 
 
   const techStack = [
-    { icon: phpIcon, label: "PHP", alt: "phpIcon" },
     { icon: python, label: "Python", alt: "pyhtonIcon" },
+    { icon: phpIcon, label: "PHP", alt: "phpIcon" },
     { icon: mysql, label: "MySQL", alt: "MySQLIcon" },
     { icon: javascriptIcon, label: "JavaScript", alt: "javascriptIcon" },
     { icon: reactIcon, label: "React", alt: "reactIcon" },
@@ -41,13 +41,20 @@ function About() {
   ];
 
   const experinece = [
-    { expe: 1.5, para: "Year Of Experience" },
+    { expe: 2.5, para: "Year Of Experience" },
     { expe: 6, para: "Months Of Trainee", },
 
   ];
   const myexperinece = [
     {com_name:'NETAXIS IT SOLUTIONS (P) LTD', icon: <FaLaptopCode/>, years: "Jun 2023 - Nov 2023", field: "Fullstack Developer (Trainee)", para: "Developed responsive front-end templates with CSS and Bootstrap, focusing on user interface design. Also contributed to API integration in various small projects." },
-    {com_name:"Nscript Web Studios ", icon: <FaLaptopCode/>, years: "Jan 2024 - Present", field: "Web Developer", para: " As a Software Developer at nScript Technologies, I contributed to the development of a food delivery and trading platform aimed at enhancing operational efficiency, user experience, and backend performance. I worked across both front-end and back-end components, using PHP, Python, JavaScript,MySQL,HTML, and CSS to build and maintain dynamic, database-driven web applications." },
+    {com_name:"Nscript Web Studios ", icon: <FaLaptopCode/>, years: "Jan 2024 - Mar 2026", field: "Web Developer", para: " As a Software Developer at nScript Technologies, I contributed to the development of a food delivery and trading platform aimed at enhancing operational efficiency, user experience, and backend performance. I worked across both front-end and back-end components, using PHP, Python, JavaScript,MySQL,HTML, and CSS to build and maintain dynamic, database-driven web applications." },
+    {
+com_name: "MELSS",
+icon: <FaLaptopCode/> ,
+years: "May 2026 - Present",
+field: "Software Developer",
+para: "Working on IoT-based device monitoring and automation systems. Integrated Pick-to-Light devices, SWASS, and HETROZOR hardware systems using MQTT protocol for real-time communication. Developed solutions for receiving device health data, monitoring device status, and improving system reliability through backend and API integration."
+}
     
 
   ];
